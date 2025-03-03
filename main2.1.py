@@ -1,9 +1,9 @@
 number = int(input("Enter a number: "))
 
-n1 = number // 1000          # Перша цифра (тисячі)
-n2 = (number // 100) % 10   # Друга цифра (сотні)
-n3 = (number // 10) % 10    # Третя цифра (десятки)
-n4 = number % 10            # Четверта цифра (одиниці)
+n1 = number // 1000
+n2 = (number // 100) % 10
+n3 = (number // 10) % 10
+n4 = number % 10
 
 print(n1)
 print(n2)
